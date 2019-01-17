@@ -6,5 +6,5 @@ function addElementToEndOfArray(chocolateBars, herseys) { return [...chocolateBa
 function destructivelyAddElementToEndOfArray(chocolateBars, herseys) { chocolateBars.push(herseys)
 return chocolateBars}
 function accessElementInArray(chocolateBars, index) {
-  return console.log(chocolateBars[0])
+  console.log(chocolateBars[0]);
 }
