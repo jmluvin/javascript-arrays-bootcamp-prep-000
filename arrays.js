@@ -8,3 +8,9 @@ return chocolateBars}
 function accessElementInArray(chocolateBars, index) {
   return console.log(chocolateBars[0]);
 }
+function removeElementFromBeginningOfArray(chocolateBars) { return [herseys,...chocolateBars] }
+function destructivelyRemoveElementToBeginningOfArray(chocolateBars) { chocolateBars.shift()
+return chocolateBars}
+function addElementRemoveEndOfArray(chocolateBars, herseys) { return [...chocolateBars, herseys] }
+function destructivelyRemoveElementFromEndOfArray(chocolateBars, herseys) { chocolateBars.push(herseys)
+return chocolateBars}
