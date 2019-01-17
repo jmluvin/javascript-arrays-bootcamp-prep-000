@@ -5,7 +5,7 @@ return chocolateBars}
 function addElementToEndOfArray(chocolateBars, herseys) { return [...chocolateBars, herseys] }
 function destructivelyAddElementToEndOfArray(chocolateBars, herseys) { chocolateBars.push(herseys)
 return chocolateBars}
-function accessElementInArray(chocolateBars, 0) {
+function accessElementInArray(chocolateBars, snickers) {
   return console.log(chocolateBars[0]);
 }
 function removeElementFromBeginningOfArray(chocolateBars) { return chocolateBars.slice(1) }
