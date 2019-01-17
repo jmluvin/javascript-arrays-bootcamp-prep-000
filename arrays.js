@@ -9,8 +9,8 @@ function accessElementInArray(chocolateBars, index) {
   return console.log(chocolateBars[0]);
 }
 function removeElementFromBeginningOfArray(chocolateBars) { return chocolateBars.slice(1) }
-function destructivelyRemoveElementToBeginningOfArray(chocolateBars) { chocolateBars.shift()
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) { chocolateBars.shift()
 return chocolateBars}
-function removeElementRemoveEndOfArray(chocolateBars) { return chocolateBars.slice(0, chocolateBars.length - 1) }
+function removeElementRemoveFromEndOfArray(chocolateBars) { return chocolateBars.slice(0, chocolateBars.length - 1) }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars) { chocolateBars.pop()
 return chocolateBars}
